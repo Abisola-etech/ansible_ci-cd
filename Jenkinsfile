@@ -14,7 +14,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'main', url: 'https://github.com/etechDevops/ansible_ci-cd.git'
+                git branch: 'main', url: 'https://github.com/Abisola-etech/ansible_ci-cd.git'
              
           }
         }
